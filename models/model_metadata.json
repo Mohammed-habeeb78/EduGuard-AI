@@ -1,0 +1,204 @@
+{
+  "best_model": "Logistic Regression",
+  "feature_names": [
+    "school",
+    "sex",
+    "age",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Medu",
+    "Fedu",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "traveltime",
+    "studytime",
+    "failures",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences"
+  ],
+  "best_metrics": {
+    "model_name": "Logistic Regression",
+    "accuracy": 0.6455696202531646,
+    "precision": 0.4722222222222222,
+    "recall": 0.6538461538461539,
+    "f1_score": 0.5483870967741935,
+    "roc_auc": 0.7314949201741655,
+    "confusion_matrix": [
+      [
+        34,
+        19
+      ],
+      [
+        9,
+        17
+      ]
+    ]
+  },
+  "comparison_table": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.6456,
+      "Precision": 0.4722,
+      "Recall": 0.6538,
+      "F1-Score": 0.5484,
+      "ROC-AUC": 0.7315
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.7089,
+      "Precision": 0.6154,
+      "Recall": 0.3077,
+      "F1-Score": 0.4103,
+      "ROC-AUC": 0.7221
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.7342,
+      "Precision": 0.6471,
+      "Recall": 0.4231,
+      "F1-Score": 0.5116,
+      "ROC-AUC": 0.7329
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "failures",
+      "importance": 0.54937
+    },
+    {
+      "feature": "goout",
+      "importance": 0.42989
+    },
+    {
+      "feature": "age",
+      "importance": 0.266882
+    },
+    {
+      "feature": "schoolsup",
+      "importance": 0.257386
+    },
+    {
+      "feature": "famsup",
+      "importance": 0.256948
+    },
+    {
+      "feature": "reason",
+      "importance": 0.24801
+    },
+    {
+      "feature": "famrel",
+      "importance": 0.243408
+    },
+    {
+      "feature": "Dalc",
+      "importance": 0.231005
+    },
+    {
+      "feature": "Walc",
+      "importance": 0.208899
+    },
+    {
+      "feature": "freetime",
+      "importance": 0.206675
+    },
+    {
+      "feature": "sex",
+      "importance": 0.197898
+    },
+    {
+      "feature": "Pstatus",
+      "importance": 0.179392
+    },
+    {
+      "feature": "nursery",
+      "importance": 0.157863
+    },
+    {
+      "feature": "higher",
+      "importance": 0.15383
+    },
+    {
+      "feature": "address",
+      "importance": 0.153544
+    },
+    {
+      "feature": "romantic",
+      "importance": 0.149188
+    },
+    {
+      "feature": "activities",
+      "importance": 0.148392
+    },
+    {
+      "feature": "guardian",
+      "importance": 0.123111
+    },
+    {
+      "feature": "Fedu",
+      "importance": 0.122184
+    },
+    {
+      "feature": "famsize",
+      "importance": 0.120462
+    },
+    {
+      "feature": "absences",
+      "importance": 0.119989
+    },
+    {
+      "feature": "Medu",
+      "importance": 0.117496
+    },
+    {
+      "feature": "studytime",
+      "importance": 0.099939
+    },
+    {
+      "feature": "health",
+      "importance": 0.096589
+    },
+    {
+      "feature": "internet",
+      "importance": 0.080851
+    },
+    {
+      "feature": "Mjob",
+      "importance": 0.080546
+    },
+    {
+      "feature": "school",
+      "importance": 0.061345
+    },
+    {
+      "feature": "Fjob",
+      "importance": 0.04444
+    },
+    {
+      "feature": "traveltime",
+      "importance": 0.035536
+    },
+    {
+      "feature": "paid",
+      "importance": 0.028778
+    }
+  ],
+  "n_train": 316,
+  "n_test": 79,
+  "n_features": 30
+}
